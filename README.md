@@ -16,7 +16,7 @@ Curitiba, PR · Sistemas de Informação na PUCPR
 
 - Terraria, meu jogo favorito de todos os tempos, com mais de 1.000 horas entre bases, farms, fiação e arenas planejadas pra cada chefe.
 - Stardew Valley, 90 horas montando uma fazenda organizada por produção, locomoção e estética.
-- D&D de mesa, jogando com um kobold ladino de duas adagas e voz bem fina.
+- D&D de mesa, jogava com um kobold ladino de duas adagas e voz bem fina.
 
 **O que eu junto e organizo**
 
