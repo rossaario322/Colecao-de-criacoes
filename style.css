@@ -1,0 +1,129 @@
+/* ---------- base da pagina ---------- */
+body {
+  background-color: #fdf6ec;                          /* fundo creme */
+  color: #2b2b2b;                                     /* texto quase preto (preto puro cansa a vista) */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;                                   /* espaco entre as linhas */
+  max-width: 760px;                                   /* impede a linha de texto de ficar larga demais */
+  margin: 40px auto;                                  /* 40px em cima/embaixo, "auto" centraliza */
+  padding: 0 20px;                                    /* respiro nas laterais no celular */
+}
+
+/* ---------- titulos ---------- */
+h1 {
+  color: #1f5f5b;
+  font-size: 34px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  color: #1f5f5b;
+  font-size: 23px;
+  margin-top: 50px;                                   /* separa um bloco do outro */
+  margin-bottom: 2px;
+  border-bottom: 1px solid #e0d6c6;                   /* linha fina embaixo do titulo */
+  padding-bottom: 6px;
+}
+
+/* ---------- linha pequena embaixo de cada titulo ---------- */
+.sub {
+  color: #7a6a55;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+/* ---------- paragrafo de abertura ---------- */
+.intro {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* ---------- espaco reservado para a imagem ---------- */
+.foto {
+  border: 1px dashed #bdb0a0;
+  background-color: #fbf1e2;
+  color: #9a8d7c;
+  font-size: 14px;
+  text-align: center;
+  padding: 55px 10px;
+  margin-top: 18px;
+}
+
+/* ---------- imagens ---------- */
+img {
+  max-width: 100%;                                    /* nunca estoura a largura da pagina */
+  display: block;
+  margin-top: 18px;
+  border: 1px solid #e0d6c6;
+}
+
+/* ---------- duas ou mais fotos lado a lado ---------- */
+.galeria {
+  display: flex;                                      /* coloca as fotos em linha */
+  flex-wrap: wrap;                                    /* quebra pra baixo quando nao cabe */
+  align-items: flex-start;                            /* sem isso a foto menor estica pra acompanhar a maior */
+  gap: 12px;                                          /* espaco entre elas */
+  margin-top: 18px;
+}
+
+.galeria img {
+  flex: 1 1 300px;                                    /* cada foto tenta ter no minimo 300px */
+  min-width: 0;                                       /* sem isso a foto grande nao deixa dividir a linha */
+  height: auto;                                       /* mantem a proporcao original, sem cortar nada */
+  margin-top: 0;
+}
+
+/* ---------- identificacao no topo da pagina ---------- */
+header {
+  display: flex;                                      /* foto e dados lado a lado */
+  align-items: center;                                /* alinha pelo meio */
+  gap: 20px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #1f5f5b;                   /* linha que separa do resto */
+  margin-bottom: 30px;
+}
+
+.retrato {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;                                     /* impede a foto de ser espremida */
+  object-fit: cover;                                  /* corta em vez de distorcer */
+  border-radius: 50%;                                 /* 50% deixa redonda */
+  margin-top: 0;
+}
+
+.nome {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+  color: #1f5f5b;
+  line-height: 1.2;
+}
+
+.dados {
+  margin: 4px 0 0;
+  font-size: 15px;
+  color: #7a6a55;
+}
+
+/* ---------- links ---------- */
+a {
+  color: #1f5f5b;
+}
+
+.link {
+  margin-top: 14px;
+  font-size: 16px;
+}
+
+/* ---------- nota do rodape ---------- */
+.nota {
+  margin-top: 60px;
+  padding-top: 16px;
+  border-top: 1px solid #e0d6c6;
+  font-size: 14px;
+  color: #7a6a55;
+}
