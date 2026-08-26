@@ -31,32 +31,13 @@ Curitiba, PR · Sistemas de Informação na PUCPR
 - Pescaria com meu pai, umas duas vezes por ano.
 - O copo térmico que anda comigo pra qualquer bebida.
 
-## Como abrir
-
-Não precisa instalar nada nem rodar servidor. Baixe os arquivos e dê dois cliques no `index.html`.
-
-## Estrutura
-
-```
-index.html      conteúdo da página
-style.css       toda a aparência
-public/         as fotos
-```
-
 ## Tecnologias
 
 HTML e CSS puros. Sem framework, sem biblioteca, sem dependência externa.
 
-## Sobre o uso de IA neste material
+## Sobre o uso de IA neste material:
 
-- Revisões de texto (ortografia, gramática, clareza).
-- Organizar ideias que já eram minhas antes de escrever.
+- Revisões de texto (ortografia, gramática, clareza);
+- Organizar ideias que já eram minhas antes de escrever;
 - Feedback sobre rascunhos que eu escrevi.
-
-[escreva aqui a frase sobre o código]
-
-Todo o conteúdo é meu: os fatos, as histórias, as opiniões e as fotos.
-
-## Contato
-
-[e-mail, LinkedIn ou o que você quiser colocar aqui]
+- Todo o conteúdo é meu: os fatos, as histórias, as opiniões e as fotos.
